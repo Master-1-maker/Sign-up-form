@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left-image{
+    width: 40vw;
+    height: 100vh;
+    background-image: url(image.avif);
+    transform: rotateY(180deg);    
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.logo{
+    transform: rotateY(180deg);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    transform: rotateY(180deg);   
+
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(154, 192, 183);
+    height: 100vh;
+    width: 60vw;
+}
+
+.row-1{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 20px;
+    height: 35vh;
+    width: 55vw; 
+    color: rgb(250, 255, 255); 
+}
+
+
+.row-2{
+    font-size: 22px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 30px;
+    height: 40vh;
+    width: 57vw;
+    background-color: rgb(127, 160, 153);
+    color: rgb(250, 255, 255); 
+}
+
+
+
+.row-3{
+    height: 25vh;
+    width: 55vw; 
+    
+}
+
+div.form {
+    
+    width: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 18px;
+    
+}
+
+
+
+.signupbtn {
+    width: 215px;
+    height: 50px;
+    color: white;
+    background-color: #FF8B28;
+    font-weight: 900;
+    padding: 1px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 0.7px;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow: 3px 5px 10px #938a8a;
+}
+
+.signupbtn:hover{
+    cursor: pointer;
+    background-color: #fe9a35;
+
+}
+
+.logintext{
+    color: rgb(250, 255, 255); 
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF8B28;
+  }
+
+
