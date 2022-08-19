@@ -1,3 +1,3 @@
-A sign up form using HTML and CSS
+A Sign Up form page created using HTML and CSS.
 
-link📍
+
